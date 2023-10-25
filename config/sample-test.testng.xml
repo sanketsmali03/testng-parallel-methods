@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross-Platform">
+    <test name="BStackDemo">
+        <classes>
+            <class name="com.browserstack.BStackDemoTest">
+            <methods>
+                <include name=".*addProductToCart.*"/>
+
+            </methods>
+            </class>
+
+        </classes>
+
+    </test>
+
+    <test name="BStackDemo2">
+        <classes>
+            <class name="com.browserstack.BStackDemoTest">
+                <methods>
+                    <include name=".*testProduct.*"/>
+
+                </methods>
+            </class>
+
+        </classes>
+
+    </test>
+</suite>
